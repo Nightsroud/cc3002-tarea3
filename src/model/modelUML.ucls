@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.1" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
   realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <interface id="1" language="java" name="model.IGameLogic" project="cc3002-tarea3.0" 
-    file="/cc3002-tarea3.0/src/model/IGameLogic.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="739" y="108"/>    
+  <interface id="1" language="java" name="model.IGameLogic" project="cc3002-tarea3.5" 
+    file="/cc3002-tarea3.5/src/model/IGameLogic.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="315" width="238" x="283" y="22"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <class id="2" language="java" name="model.GameLogic" project="cc3002-tarea3.0" 
-    file="/cc3002-tarea3.0/src/model/GameLogic.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="377" y="108"/>    
+  <class id="2" language="java" name="model.GameLogic" project="cc3002-tarea3.5" 
+    file="/cc3002-tarea3.5/src/model/GameLogic.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="387" width="239" x="687" y="-14"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      

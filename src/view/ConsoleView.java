@@ -82,6 +82,7 @@ public class ConsoleView extends Application implements Observer {
 	  borderpane.setBottom(hand);
 	  stage.setScene(new Scene(borderpane, 900, 600));
 	  stage.show();
+	  ctrl.playTurn(); //al tratar de iniciar el juego este se queda pegado, no supe como solucionar esto.
   }
 
   private Node deckndiscardImage(String disdir, String deckdir) {
@@ -215,13 +216,13 @@ private Node makePlayers() {
   @Override
   public void update(Observable o, Object arg) {
 	  updateDiscardPile(((GameLogic) o).getCurrentPlayedCard());
-	  updateCurrentPlayerHand();
 	  try {
 		TimeUnit.SECONDS.sleep(10);
 	} catch (InterruptedException e) {
 		e.printStackTrace();
 	}
 	  ctrl.playTurn();
+	  updateCurrentPlayerHand();
 	  
   }
   
